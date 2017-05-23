@@ -1,13 +1,14 @@
-Goal :
+# Goal
 
 This is a simple Docker container to provide random java logs. It's based on [log-generator](https://github.com/Febbweiss/log-generator)
 
 The default behaviour is the following :
-
+```
 java -jar /log-generator-0.0.2.jar -n 15 -r 1000
+```
 The endless generated file is located in /var/log/java/app.log.
 
-Licences :
+# Licence
 
 Copyright (c) 2017 Fabrice ECAILLE aka Febbweiss
 
